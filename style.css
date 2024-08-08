@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+
+}
+.h1{
+    text-align: center;
+   padding: 25px;
+    background-color: rgb(141, 25, 25);
+    color: white;
+}
+nav{
+    color:white;
+}
+.projects{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   justify-content: space-around;
+}
+.projects .card{
+   border-radius: 15px;
+   transition-duration: 1s;
+}
+.projects .card:hover{
+    transform: scale(1.1);
+}
+footer{
+    margin-top: 30px;
+    background-color: black;
+    color: white;
+    text-align: center;
+  height: 60px;
+}
+.ri-whatsapp-line{
+    color: green;
+}
+footer a{
+    text-decoration: none;
+    font-size: 40px;
+}
+@media screen and (max-width:800px){
+    footer{
+        height: 140px;
+    }
+}
